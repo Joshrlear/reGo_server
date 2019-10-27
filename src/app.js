@@ -4,8 +4,16 @@ const morgan = require('morgan')
 const cors = require('cors')
 const helmet = require('helmet')
 const { NODE_ENV } = require('./config')
+const authRoutes = require('./routes/auth')
+const passportSetup = require('./passport.setup')
 
 const app = express()
+
+// setup view engine
+app.set('view engine', 'ejs')
+
+// auth middleware
+app.use('/auth', authRoutes)
 
 const morganOption = (NODE_ENV === 'production')
   ? 'tiny'
@@ -16,7 +24,8 @@ app.use(cors())
 app.use(helmet())
 
 app.get('/', (req, res) => {
-    res.send('Hello, world!')
+    //res.send('Hello, world!')
+    res.render('home')
 })
 
 app.use(function errorHandler(error, req, res, next) {
