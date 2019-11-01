@@ -1,0 +1,42 @@
+[
+    {
+        "listing_status": "listed",
+        "street_address": "4342 second street",
+        "city": "bay ho",
+        "state_code": "ca",
+        "zip_code": "92021",
+        "open_house_time": "10:00:00",
+        "open_house_date": "2019-12-02",
+        "price": 650000
+    },
+    {
+        "listing_status": "listed",
+        "street_address": "96434 g way",
+        "city": "san diego",
+        "state_code": "ca",
+        "zip_code": "92002",
+        "open_house_time": "12:00:00",
+        "open_house_date": "2019-12-01",
+        "price": 450000
+    },
+    {
+        "listing_status": "listed",
+        "street_address": "40 high lane",
+        "city": "san diego",
+        "state_code": "ca",
+        "zip_code": "92001",
+        "open_house_time": "10:00:00",
+        "open_house_date": "2019-12-01",
+        "price": 595000
+    },
+    {
+        "listing_status": "coming soon",
+        "street_address": "1212 fury way",
+        "city": "rancho san diego",
+        "state_code": "ca",
+        "zip_code": "92019",
+        "open_house_time": "10:00:00",
+        "open_house_date": "2019-12-01",
+        "price": 700000
+    }
+]

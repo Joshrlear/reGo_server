@@ -1,0 +1,26 @@
+[
+    {
+        "name": "keller williams",
+        "license": "0002313",
+        "street_address": "21994 capital drive",
+        "city": "san diego",
+        "state_code": "ca",
+        "zip_code": "92101"
+    },
+    {
+        "name": "century 21",
+        "license": "0006365",
+        "street_address": "5883 21st ave",
+        "city": "san diego",
+        "state_code": "ca",
+        "zip_code": "92120"
+    },
+    {
+        "name": "big block",
+        "license": "0002453",
+        "street_address": "54 rail way",
+        "city": "san diego",
+        "state_code": "ca",
+        "zip_code": "92026"
+    }
+]

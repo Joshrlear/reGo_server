@@ -6,14 +6,18 @@ const helmet = require('helmet')
 const { NODE_ENV } = require('./config')
 const authRoutes = require('./routes/auth')
 const passportSetup = require('./passport.setup')
+const dummyService = require('../dummyData/dummyData-service')
 
 const app = express()
+dummyService.insertBrokerages()
+dummyService.insertUsers()
+dummyService.insertProperties()
 
 // setup view engine
 app.set('view engine', 'ejs')
 
 // auth middleware
-app.use('/auth', authRoutes)
+app.use('/api/auth', authRoutes)
 
 const morganOption = (NODE_ENV === 'production')
   ? 'tiny'
@@ -23,7 +27,7 @@ app.use(morgan(morganOption))
 app.use(cors())
 app.use(helmet())
 
-app.get('/', (req, res) => {
+app.get('/api/', (req, res) => {
     //res.send('Hello, world!')
     res.render('home')
 })

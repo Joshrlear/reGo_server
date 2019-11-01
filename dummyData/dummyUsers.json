@@ -1,0 +1,50 @@
+[
+    {
+        "first_name": "josh",
+        "last_name": "lear",
+        "license": "0000001",
+        "phone": 16195076807,
+        "email": "joshrlear@gmail.com",
+        "street_address": "3215 loma vista drive",
+        "city": "jamul",
+        "state_code": "ca",
+        "zip_code": "91935",
+        "brokerage_id": 1
+    },
+    {
+        "first_name": "james",
+        "last_name": "block",
+        "license": "0000002",
+        "phone": 16195443232,
+        "email": "jblock@gmail.com",
+        "street_address": "12125 mountain view lane",
+        "city": "jamul",
+        "state_code": "ca",
+        "zip_code": "91935",
+        "brokerage_id": 1
+    },
+    {
+        "first_name": "devan",
+        "last_name": "cambell",
+        "license": "0000003",
+        "phone": 12156782245,
+        "email": "devantwotime@gmail.com",
+        "street_address": "987 bush fire way",
+        "city": "national city",
+        "state_code": "ca",
+        "zip_code": "92124",
+        "brokerage_id": 2
+    },
+    {
+        "first_name": "dr",
+        "last_name": "disrespect",
+        "license": "0000004",
+        "phone": 16195559121,
+        "email": "slickdaddy@twotime.com",
+        "street_address": "5464 backto back arena",
+        "city": "carlsbad",
+        "state_code": "ca",
+        "zip_code": "92056",
+        "brokerage_id": 3
+    }
+]
